@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!TEXTBEAT!</title>
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+        <audio id="audio-player" preload="auto">
+            <source src="Resources/pybeat-0.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="container-2">
+            <p id="cursong">Current Song: Ber Zer Ker - 1</p>
+            <button id="choosePrev">Previous</button>
+            <button id="chooseNext">Next</button>
+            <button id="playBtn">Play</button>
+        </div>
+
+        <h1 id="title">!TextBeat!</h1>
+
+        <textarea id="text-input" name="sst" rows="30" cols="125" maxlength="450" placeholder="Type Text Here"></textarea>
+
+        <button id="downloadBtn">Save</button>
+        <button id="clearBtn">Clear</button>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
